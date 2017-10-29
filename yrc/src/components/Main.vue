@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import HeaderCom from './Header/Header'
+  import HeaderCom from './Header/Header';
 export default {
   name: 'main',
   data () {
