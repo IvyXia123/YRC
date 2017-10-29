@@ -4,12 +4,12 @@
       <li>普通注册</li>
       <li>快速注册</li>
     </ul>
-    <login-normal></login-normal>
+    <register-normal></register-normal>
   </div>
 </template>
 
 <script>
-  import LoginNormal from './../Login/LoginNormal';
+  import registerNormal from './../register/registerNormal';
 export default {
   name: 'tabTittle',
   data () {
@@ -18,7 +18,7 @@ export default {
     }
   },
   components:{
-    LoginNormal
+    registerNormal
   }
 }
 </script>

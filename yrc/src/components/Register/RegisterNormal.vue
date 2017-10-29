@@ -1,5 +1,5 @@
 <template>
-  <div class="loginNormal">
+  <div class="registerNormal">
     <ul>
       <li>
         <input type="text" placeholder="用户名"/>
@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: 'loginNormal',
+  name: 'registerNormal',
   data () {
     return {
 
@@ -25,7 +25,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less" type="text/less" scoped>
   @import './../../less/init.less';
-  .loginNormal{
+  .registerNormal{
     ul{
       padding:50/@rem 60/@rem;
       box-sizing:border-box;
