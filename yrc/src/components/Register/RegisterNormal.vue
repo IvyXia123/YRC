@@ -2,10 +2,35 @@
   <div class="registerNormal">
     <ul>
       <li>
+        <span>
+          <img src="./../../assets/images/user-icon.png"/>
+        </span>
         <input type="text" placeholder="用户名"/>
       </li>
       <li>
+        <span>
+          <img src="./../../assets/images/icon-menu.png"/>
+        </span>
         <input type="text" placeholder="手机号"/>
+      </li>
+      <li>
+        <span>
+          <img src="./../../assets/images/icon-menu.png"/>
+        </span>
+        <input type="text" placeholder="动态密码"/>
+        <span class="getMobilePass">动态密码</span>
+      </li>
+      <li>
+        <span>
+          <img src="./../../assets/images/icon-menu.png"/>
+        </span>
+        <input type="text" placeholder="密码"/>
+      </li>
+      <li>
+        <span>
+          <img src="./../../assets/images/icon-menu.png"/>
+        </span>
+        <input type="text" placeholder="确认密码"/>
       </li>
     </ul>
   </div>
@@ -34,6 +59,22 @@ export default {
         line-height:(60/@rem);
         border-bottom:1px solid #c0c0c0;
         margin:20/@rem 0;
+        border-bottom:1px solid #c0c0c0;
+        span{
+          flex:20/@rem;
+        }
+        input{
+          flex:0 0 1;
+        }
+        .getMobilePass{
+          display:inline-block;
+          float:right;
+          .w(150/@rem);
+          .h(100%);
+          line-height:60/@rem;
+          text-align:right;
+          color:#a48057;
+        }
       }
     }
   }
