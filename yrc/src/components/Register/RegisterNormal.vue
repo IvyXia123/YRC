@@ -18,7 +18,7 @@
           <img src="./../../assets/images/icon-menu.png"/>
         </span>
         <input type="text" placeholder="动态密码"/>
-        <span class="getMobilePass">动态密码</span>
+        <span class="getMobilePass">动态密码111</span>
       </li>
       <li>
         <span>
