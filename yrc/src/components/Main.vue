@@ -7,10 +7,7 @@
 
 <script>
   import HeaderCom from './Header/Header';
-<<<<<<< HEAD
   import footer from './footer/footer';
-=======
->>>>>>> 6ee22ccbf03d5e07a76aaef1f607e393033d5aec
 export default {
   name: 'main',
   data () {
