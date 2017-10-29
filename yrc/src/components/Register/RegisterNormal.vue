@@ -18,7 +18,7 @@
           <img src="./../../assets/images/icon-menu.png"/>
         </span>
         <input type="text" placeholder="动态密码"/>
-        <span class="getMobilePass">动态密码111</span>
+        <span class="getMobilePass">获取手机动态密码</span>
       </li>
       <li>
         <span>
@@ -33,6 +33,9 @@
         <input type="text" placeholder="确认密码"/>
       </li>
     </ul>
+    <div class="registerBox">
+      <div class="register">立即注册</div>
+    </div>
   </div>
 </template>
 
@@ -69,12 +72,26 @@ export default {
         .getMobilePass{
           display:inline-block;
           float:right;
-          .w(150/@rem);
+          .w(250/@rem);
           .h(100%);
           line-height:60/@rem;
           text-align:right;
           color:#a48057;
         }
+      }
+    }
+    .registerBox{
+      .w(100%);
+      .h(93/@rem);
+      padding:0 60/@rem;
+      box-sizing:border-box;
+      .register{
+        .w(100%);
+        .h(100%);
+        line-height:93/@rem;
+        background:#d7c092;
+        text-align:center;
+        color:#fff;
       }
     }
   }
